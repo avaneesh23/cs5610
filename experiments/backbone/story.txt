@@ -1,0 +1,5 @@
+﻿../../story/whatisnext.htm?../experiments/backbone/story.txt		 	What is Next?
+index.html															 	<h1>Flower (SPA) Single Page App using backbonejs<h1>
+../../story/index.htm?../experiments/backbone/js/story.txt	 		backbonejs MVC file str
+../../story/index.htm?../experiments/backbone/css/story.txt     		css elements
+../../story/index.htm?../experiments/backbone/images/story.txt		images

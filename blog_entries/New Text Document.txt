@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Strengths of BackboneJS over Knock-out, Angular and Ember JS MVCs</title>
+	</head>
+	<body>
+		<h1 style="color: red;">
+			<span style="font-size:20px;"><strong><u>Strengths of BackboneJS over Knock-out, Angular and Ember JS MVCs</u></strong></span></h1>
+    	<ul>
+			<li>
+				Highly customizable
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Light-weight and faster
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Played with various modules within nodejs.
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Deployed a server application using only javascript (nodejs).
+			</li>
+		</ul>
+	</body>
+</html>

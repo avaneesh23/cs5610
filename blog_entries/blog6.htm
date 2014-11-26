@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 style="color: red;">
+			<span style="font-size:20px;"><strong><u>Replication and nodejs</u></strong></span></h1>
+    	<ul>
+			<li>
+				Replicated the local database onto the Cloud. 
+				Used couchDB's <a href="http://net4.ccs.neu.edu/home/murthya/experiments/couch/replicatingFromLocalToCloud.jpg">replicator </a>feature.
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Implemented connect, read one document, read a saved view, write operations on Couch DB using nodejs. This is only possible from the local
+				database. One would have to install couchDB and nodejs on the laptop to be able to run
+				<ul>db.js</ul>, 
+				<ul>get_delivery.js</ul>, 
+				<ul>list_items.js</ul>, 
+				<ul>save.js</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Created multiple views on couch DB. The same can be accessed from the <a href="http://cs5610.iriscouch.com/_utils/">couch DB futon</a>. 
+				I have enabled 'non admin' access to futon. One can query the database using HTTP requests,
+				<li><a href="http://cs5610.iriscouch.com/_all_dbs">get all databases</a></li>
+				<li><a href="http://cs5610.iriscouch.com/restaurant/">get restaurant database</a></li>
+				<li><a href="http://cs5610.iriscouch.com/restaurant/_all_docs">get all documents in restaurant db</a></li>
+				
+				<li><a href="http://cs5610.iriscouch.com/_active_tasks">List all active tasks (admin's only)</a></li>
+				<li><a href="http://cs5610.iriscouch.com/restaurant/94e61bfa7c3873ad5700020f8203772a">restaurant/DOC-ID (for any particular document in the database)</a></li>
+				<a href="http://cs5610.iriscouch.com/restaurant/94e61bfa7c3873ad5700020f8203a59c/stirfry.jpeg">restaurant/DOC-ID/image-name</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Used map and reduce functions to create different views. Click on the database in the futon, select a view from the drop-down
+				One of these views is used to put all the images together in an html page below.</li>
+				<a href="http://cs5610.iriscouch.com/restaurant/_design/menu/index.html">rendering a view from mutiple documents of the same database</a> 
+			</li>
+		</ul>
+	</body>
+</html>
